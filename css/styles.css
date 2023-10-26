@@ -597,29 +597,22 @@ h6 {
 }
 .container {
   max-width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border: 1px solid red;
-}
-/* xs */
-@media (min-width: 428px) {
-  .container {
-    max-width: 428px;
-  }
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-/* sm */
-@media (min-width: 768px) {
+@media (min-width: 428px), (max-width: 428x) {
   .container {
-    max-width: 768px;
+    width: 428px;
   }
 }
-
-/* md */
-@media (min-width: 1158px) {
+@media (min-width: 768px), (max-width: 768px) {
   .container {
-    max-width: 1158px;
+    width: 768px;
+  }
+}
+@media (min-width: 1158px), (max-width: 1158px) {
+  .container {
+    width: 1158px;
   }
 }

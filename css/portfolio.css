@@ -101,13 +101,15 @@ p {
   letter-spacing: 0.32;
   font-size: 16px;
   line-height: 24px;
+  
+padding-bottom: 200px;
 }
 
 .all-list-container .text {
   width: 296px;
   height: 96px;
   color: var(--hover-container);
-  position: absolute;
+  position: relative;
   bottom: 100px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
